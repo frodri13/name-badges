@@ -1,4 +1,8 @@
-const NameBadge = () => {
+type NameBadgeProps ={
+  name: string;
+}
+
+const NameBadge = ({name}: NameBadgeProps) => {
   return (
     <section className="badge">
       <header className="badge-header">
@@ -14,3 +18,4 @@ const NameBadge = () => {
 };
 
 export default NameBadge;
+
